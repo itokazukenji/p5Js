@@ -5,7 +5,7 @@
 
 var setup = function setup() { // 準備
   createCanvas(300, 300); // キャンバスのサイズ
-  frameRate(50); // 1秒間に何回画面を置き換えるか
+  frameRate(50); // 1秒間に何回フレーム（画面）を置き換えるか
 };
 
 var num = 0; // フレームの偶数回、奇数回を判断するために変数を作る
